@@ -231,3 +231,29 @@ print(inventory)
 inventory['Rats'] -= 14
 print(inventory)
 
+# Get will fetch a value even if the element isn't present in the list
+
+inventory = {'Sword': 1, 'Healthkit': 3, 'Hide':4}
+# print(inventory['Gold']) won't be able to recognize what gold is and will break code if the element isn't present
+
+print(inventory.get('Gold'))
+# Will return none as the element isn't present, however it will not break
+# ex.
+print(inventory.get('Knife'))
+
+# keys and values are quick ways to fetch list information
+
+print(inventory.keys())
+print(inventory.values())
+
+inventory.pop('Healthkit')
+print(inventory)
+
+print(len(inventory))
+print(min(inventory))
+print(max(inventory))
+inventory.clear()
+print(inventory)
+
+# Ranges are lists of consecutive numbers, they are given start and end parameters as well as 'step' parameters which determines the amount per count
+# number_count = range(1, 10) will return 
