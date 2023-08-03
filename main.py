@@ -22,8 +22,8 @@ new_num_enemies = (300 // 34)
 print(new_num_enemies)
 
 weapons = 8
-new_weaopns = (8 % 3)
-print(new_weaopns)
+new_weapons = (8 % 3)
+print(new_weapons)
 # % is equal to the remainder left in the division whereas // is equal to the solution to the division problem without a remainder
 
 
