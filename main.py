@@ -256,4 +256,43 @@ inventory.clear()
 print(inventory)
 
 # Ranges are lists of consecutive numbers, they are given start and end parameters as well as 'step' parameters which determines the amount per count
-# number_count = range(1, 10) will return 
+# number_count = range(1, 10)
+Numb_Count = range(0, 11)
+print(Numb_Count)
+Numb_Count = range(0, 20,)
+print(Numb_Count[0])
+print(Numb_Count[5])
+reversed_count = reversed(Numb_Count)
+reversed_count = list(Numb_Count)
+print(list(reversed_count))
+
+
+# *Reversed Practice*
+twenty = range(0, 20)
+reversed_twenty = reversed(twenty)
+reversed_twenty = list(reversed_twenty)
+print(reversed_twenty)
+
+
+ten = range(5, 11)
+reversed_ten = reversed(ten)
+reversed_ten = list(reversed_ten)
+print(reversed_ten)
+
+# In, and Not In operators will return a boolean (True , False) value
+print(7 in ten)
+# Will return True
+
+print(25 not in ten)
+# Will return True
+print(6 not in ten)
+# Will return False
+
+# Range creates the parameters, List will fetch their order
+
+print(list(range(0, 18, 3)))
+
+print(list(reversed(range(0, 18, 3))))
+
+# Working more with Conditionals, If, Else, Elif
+
