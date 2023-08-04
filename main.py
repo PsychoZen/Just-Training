@@ -294,5 +294,17 @@ print(list(range(0, 18, 3)))
 
 print(list(reversed(range(0, 18, 3))))
 
-# Working more with Conditionals, If, Else, Elif
-
+# Working more with Conditionals, If, Else, Elif : Colon's indicate the end of our condition
+# Conditionals will test each line for True or False indications executing a process of elemination
+# key_press = 'r' Will return 'Move Right',  asd is for else interaction & practice
+key_press = 'asd'
+if key_press == 'r': 
+    print('move right')
+elif key_press == 'l':
+    print('Move Left')
+else:
+    print('Invalid Key')
+# Anything outside of the else statement will run regardless of the conditionals in place
+key_press = 'r'
+command = 'Move Right' if key_press == 'r' else 'Move Left'
+print(key_press)
